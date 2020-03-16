@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160610596-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-160610596-1');
+</script>
+</head>
+<body>
+<div class="skip"><a href="#main">Skip to Main Content</a></div>
+<header>
+    <h1>Jane Mintz</h1>
+    <nav>
+        <h2><a href = 'index.html'> Home</a></h2>
+        <h2><a href = 'aboutme.html'> About Me</a></h2>
+        <h2><a href = 'projects.html' class = 'active' > Projects</a></h2>
+        <h2><a href = 'contact.html'> Contact</a></h2>
+    </nav>
+    <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+            <a href="index.html">Home</a>            
+            <a href="aboutme.html">About Me</a>
+            <a href="projects.html" class = 'active'>Projects</a>
+            <a href="contact.html">Contact</a>
+            </div>
+        </div>
+</header>
+<main id = 'main'>
+<h1>Projects</h1>
+<p>During my junior year I participated in an independent study with the School of Information. The independent study is a collaboration between the School of Information and Michigan Athletics. There are around six other students and we each work with a team at Michigan and do various analytical projects. I have worked with the hockey team and completed one project and am in progress of a second project! </p>
+<div class="parallax">
+    <div class = 'flip'>
+        <div class = 'flip-inner' tabindex="0">
+            <div class = 'front'>
+                <img id = 'flyer' src = 'images/symposium.jpg' alt = 'symposium flyer' tabindex="0"/><br>
+            </div>
+            <div class = 'back'>
+                <p>Canceled Due to COVID-19 </p>
+            </div>
+        </div>  
+    </div>
+    <h2>Recruiting</h2>
+    <p>First semester I worked with one of the coaches at Michigan to improve how the coaches approach recruiting. I collected data from all Big Ten teams from the 2018-2019 season and attempted to find a relationship between a player’s success in their pre-college league to their success in the Big Ten. In particular I looked at which leagues had the most successful players. I used python and BeautifulSoup to scrape the data and Excel to complete the statistical analysis and create visualizations.</p>
+    <p>I was planning on presenting this project at the Sports Analytics Symposium in March along with sitting on a panel of analysts to discuss our work. </p>
+</div>
+<img id = 'poster' src = 'images/poster.jpg' alt = 'copy of poster'/>
+</main>
+<footer>
+    <p> Jane Mintz </p> 
+    <p>jsmintz@umich.edu      734-972-2447</p>
+ </footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160610596-1"></script>
+<script>
+    // google analytics
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-160610596-1');
+
+
+</script>
+</head>
+<body>
+<div class="skip"><a href="#main">Skip to Main Content</a></div>
+<header >
+    <h1>Jane Mintz</h1>
+    <nav>
+        <h2><a href = 'index.html'> Home</a></h2>
+        <h2><a href = 'aboutme.html'> About Me</a></h2>
+        <h2><a href = 'projects.html'> Projects</a></h2>
+        <h2><a href = 'contact.html' class = 'active' > Contact</a></h2>
+    </nav>
+    <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+            <a href="index.html">Home</a>            
+            <a href="aboutme.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" class = 'active'>Contact</a>
+            </div>
+        </div>
+</header>
+<main id = 'main'> 
+<div class = 'animation'>
+<h1> Contact</h1>
+</div>
+    <form name = 'contact' action="https://getform.io/f/9521aead-2bfd-45df-8d66-ec9a46d9be8b" method="POST">
+        <fieldset>
+        <legend>Contact Info </legend>
+        <label>Name:
+        <input type='text' id = 'name' name= 'name'></label><br>
+        <label>Email Address:
+        <input type='email' id='email' name = 'email'></label><br>
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" cols="50" name = 'message'></textarea><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset" />
+    </fieldset>
+    </form>
+    <img id = 'resume' src = images/resume.jpg alt = 'resume'/><br>
+    <div class = 'fun-font'>
+        <h2>Thanks for visiting my site!</h2>
+    </div>
+</main>
+<footer>
+    <p> Jane Mintz </p> 
+    <p>jsmintz@umich.edu      734-972-2447</p>
+</footer>
+</body>
+</html>
